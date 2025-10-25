@@ -202,7 +202,7 @@ class Pet extends Object2d {
                 App.pet.removeObject();
                 App.petDefinition = new PetDefinition({
                     name: getRandomName(),
-                    sprite: randomFromArray(PET_BABY_CHARACTERS),
+                    sprite: "resources/img/character/sonic.png",
                 }).setStats({is_egg: true});
 
                 App.petDefinition.inventory = lastPet.inventory;

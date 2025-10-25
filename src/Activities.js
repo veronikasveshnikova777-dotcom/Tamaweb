@@ -779,7 +779,7 @@ class Activities {
         let evolutions = App.petDefinition.getPossibleEvolutions(false, true);
 
         if(otherPetDef){
-            evolutions = [PetDefinition.getOffspringSprite(App.petDefinition, otherPetDef)];
+            evolutions = ["resources/img/character/sonic.png"];
             App.pet.showThought(App.constants.WANT_TYPES.playdate, otherPetDef);
         }
 
