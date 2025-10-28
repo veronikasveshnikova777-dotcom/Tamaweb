@@ -23,7 +23,7 @@ const App = {
         displayShellButtons: true,
         displayShellLogo: true,
         shellShape: 6,
-        backgroundColor: '#FFDEAD',
+        backgroundColor: '#b7ffe4ff',
         notifications: false,
         automaticAging: true,
         sleepingHoursOffset: 0,
